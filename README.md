@@ -21,7 +21,7 @@ Here Is Live Version Of Bot  [U2GD_Bot](http://telegram.dog/U2GD_Bot)
  - Dropbox Link
 
 ## Requirements
-  - [Google Drive api Credential] (https://console.cloud.google.com/apis/credentials) (Others type)  `Required`
+  - [Google Drive api Credential](https://console.cloud.google.com/apis/credentials) (Others type)  `Required`
   - Telegram Bot Token (Using BotFather)  `Required`
   - Open load ftp login and Key  `Optional`
   - Mega Email and Password  `Optional`
@@ -31,7 +31,7 @@ Here Is Live Version Of Bot  [U2GD_Bot](http://telegram.dog/U2GD_Bot)
    - Open load  => Plugins > dlopenload.py
 
 ## Setup Your Own Bot
-  - Create Your  [Google Drive api Credential] (https://console.cloud.google.com/apis/credentials) (other type) and Download its json
+  - Create Your  [Google Drive api Credential](https://console.cloud.google.com/apis/credentials) (other type) and Download its json
   - Paste it In Bot Root Directroy  and Rename it "client_secrets.json"
   - Replace Your Bot Token in  [creds.py file](./creds.py)
   - Your Bot is Ready to Host.
