@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+import wget
 import json
 from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
 from telegram import ParseMode
@@ -10,17 +10,18 @@ from upload import upload
 from creds import Creds
 from pySmartDL import SmartDL
 from pydrive.auth import GoogleAuth
-
+import plugins.download
 from plugins import TEXT
-
+from plugins.download import download_wget
 from plugins.tok_rec import is_token
 from time import time
 import subprocess
+# from plugins.dlopenload import DLOPENLOAD
 from plugins.dpbox import DPBOX
 from plugins.wdl import wget_dl
 import re
 from mega import Mega
-
+# import importlib.util
 gauth = GoogleAuth()
 
 
@@ -91,7 +92,8 @@ def token(update, context):
             print("Auth Error :", e)
             context.bot.send_message(chat_id=update.message.chat_id,
                                      text=TEXT.AUTH_ERROR)
-   
+    else:
+        print("wrong input")
 
 # command `Start`
 @run_async
@@ -130,11 +132,16 @@ def UPLOAD(update, context):
 
         # I will Add This Later
         if "openload" in url or "oload" in url:
-            
+            # url = DLOPENLOAD(url)
+            # filename = url.split("/")[-1]
+            # sent_message.edit_text(TEXT.OL_DOWNLOAD)
+            # # filename = wget.download(url)
+            # filename = wget_dl(str(url))
+            # print("Downloading Complete : {}".format(filename))
+            # sent_message.edit_text(TEXT.DOWN_COMPLETE)
             DownloadStatus = False
-            sent_message.edit_text("Openload No longer avalible")
-            return
-        
+            sent_message.edit_text("Openload is currently not supported")
+
             # Here is DropBox Stuffs
         elif 'dropbox.com' in url:
 
