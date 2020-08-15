@@ -2,7 +2,7 @@
 
 # Upload to Google Drive Bot
 
-Here Is Live Version Of Bot  [GDB EvR](http://t.me/driveyadubot)
+Here Is Live Version Of Bot  [GDB_EvR](http://t.me/driveyadubot)
 
 ### How Can We Use It
   - First authorize Bot Using `/auth` command Generate a Key and send it To bot .
