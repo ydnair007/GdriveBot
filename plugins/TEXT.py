@@ -5,7 +5,7 @@ drive_folder_name = "GDB_EvR"
 MEGA_EMAIL = "email"
 MEGA_PASSWORD = "password"
 
-START = "Hi {}  \nI am Upload 2 Drive Bot.\nPlease Authorise To use me.\nBy using /auth \n\nFor more info /help\n\nPlease Report Bugs @SmoothScotch"
+START = "Hi {}  \nTo put it simply give me any download link i will upload it to your drive.\nYou need to authorize me.\nBy using /auth \n\nFor more info /help\n\nFacing Issue?? @SmoothScotch"
 
 HELP = """<b>AUTHORISE BOT</b>
 Use  /auth Command Generate
