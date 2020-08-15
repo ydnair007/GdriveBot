@@ -31,10 +31,10 @@ DOWN_COMPLETE = "Downloading complete!!"
 NOT_AUTH = "You Are Not Authorised To Using this Bot \n\nPlease Authorise Me Using /auth"
 REVOKE_FAIL = "You Are Already UnAuthorised. \n\nPlease Use /auth To Authorise. \n\nreport At @SmoothScotch "
 AUTH_SUCC = "Authorised Successfully  !! \n\nNow Send me A direct Link :)"
-ALREADY_AUTH = "You Are Already Authorised!\n\nWanna Change Drive Account? \n\nUse /revoke \n\nreport At @SmoothScotch "
+ALREADY_AUTH = "You Are Already Authorised!\n\nWanna Change Drive Account? \nUse /revoke \n\nreport At @SmoothScotch "
 AUTH_URL = '<a href ="{}">Click Here to Get Auth Code</a>\n\nGenerate And Copy Your Google Drive Token And Send It To Me'
 UPLOADING = "Download Complet !! \nUploading Your file"
-REVOKE_TOK = " Your Token is Revoked Successfully!! \n\nUse /auth To Re-Authorise Your Drive Acc."
+REVOKE_TOK = " Your Token is Revoked Successfully!! \n\nUse /auth To Re-Authorise Your Drive."
 # DOWN_PATH = "Downloads\\" #windows path
 DOWN_PATH = "Downloads/"  # Linux path
 DOWNLOAD_URL = "Your File Uploaded Successfully.\n\n <b>Filename</b> : {} \n\n <b> Size</b> : {} MB \n\n <b>Download</b> {}"
